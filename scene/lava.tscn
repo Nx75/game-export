@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://d30a5uns7x1m4"]
+
+[ext_resource type="Texture2D" uid="uid://dayg5cdhhqk60" path="res://assets/Top Down Lava Tileset 16x16 Free/FREE TILESET FILES/Environment ( With Animations )/Burning Lava/spritesheet-burninglava.png" id="1_053lu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7blhh"]
+atlas = ExtResource("1_053lu")
+region = Rect2(0, 0, 87, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_106hd"]
+atlas = ExtResource("1_053lu")
+region = Rect2(87, 0, 87, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yo3yr"]
+atlas = ExtResource("1_053lu")
+region = Rect2(174, 0, 87, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sclge"]
+atlas = ExtResource("1_053lu")
+region = Rect2(261, 0, 87, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e7n0e"]
+atlas = ExtResource("1_053lu")
+region = Rect2(348, 0, 87, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aejrw"]
+atlas = ExtResource("1_053lu")
+region = Rect2(435, 0, 87, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v8yxw"]
+atlas = ExtResource("1_053lu")
+region = Rect2(522, 0, 87, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ti8o4"]
+atlas = ExtResource("1_053lu")
+region = Rect2(609, 0, 87, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0bsdd"]
+atlas = ExtResource("1_053lu")
+region = Rect2(696, 0, 87, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t72u7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7blhh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_106hd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yo3yr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sclge")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e7n0e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aejrw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v8yxw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ti8o4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0bsdd")
+}],
+"loop": true,
+"name": &"fire",
+"speed": 2.0
+}]
+
+[node name="lava" type="AnimatedSprite2D" unique_id=1594083059]
+sprite_frames = SubResource("SpriteFrames_t72u7")
+animation = &"fire"
+autoplay = "fire"
+frame_progress = 0.28314385

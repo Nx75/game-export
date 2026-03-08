@@ -1,0 +1,12 @@
+res://scene/background music.tscn::b3c2322746632b89738c8f74391698bb::1772935094::res://.godot/exported/133200997/export-41801e16a5e31fb5e02e0665db61aa36-background music.scn
+res://scene/fire.tscn::84809cbc347736ddb44a4509804dbfe3::1772892538::res://.godot/exported/133200997/export-a3838541d1cf8030b2766332453ce5c2-fire.scn
+res://scene/lava.tscn::869644926de52dfc5827511f5e49862b::1772912832::res://.godot/exported/133200997/export-1aeeefcf18e85d3f6c9cea86bb08f436-lava.scn
+res://scene/npc.tscn::c6057d1defa5621cb3a82ab26379662e::1772930066::res://.godot/exported/133200997/export-c27eb17d60130cefe6ee3cca69eaa6d4-npc.scn
+res://scene/player.tscn::1cdcae0d67df9dd494bbf872a2ebc676::1772935122::res://.godot/exported/133200997/export-34afcb3bda2393b8f6a0cd71512aeb81-player.scn
+res://scene/portal.tscn::6d10cfd64191ae86c2b4f77abda3338b::1772935124::res://.godot/exported/133200997/export-c6437feb63971429736de2a85771c476-portal.scn
+res://scene/world.tscn::ad67e9c7e9bdd9555b44c0ea6fb84bf0::1772935302::res://.godot/exported/133200997/export-468916015e48c1dac4bdaaea608ba868-world.scn
+res://scene/world_2.tscn::6ec0bf5b336ed5c9870be9c3b1bfa4db::1772935124::res://.godot/exported/133200997/export-a5e1dad3844f47ad09e1f1ac4c4d8da7-world_2.scn
+res://scene/world_3.tscn::b903078a6ffb7eacce8315e8f7358115::1772938760::res://.godot/exported/133200997/export-5d5dced8f954d2dad0c53c59269b42dc-world_3.scn
+res://scene/world_4.tscn::e3c46338c9269e2ade05f18737b1f0a2::1772938326::res://.godot/exported/133200997/export-a6cd6be2205c3fe1b41882b95a4c38fc-world_4.scn
+res://scripts/acid.tscn::31bf1df8f8cc4073daa9f5c0424eb2a8::1772916410::res://.godot/exported/133200997/export-63ba690e69418bac2524c45635dbd718-acid.scn
+res://scripts/gate.tscn::0bfe795df5de3f00d3b1511036c8d057::1772923672::res://.godot/exported/133200997/export-8d412f8951c30ee8f2b136b56dd2818f-gate.scn

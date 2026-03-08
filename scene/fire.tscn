@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://f8svena0kcgt"]
+
+[ext_resource type="Texture2D" uid="uid://dmhcv4ria8bo0" path="res://assets/free-2d-top-down-pixel-dungeon-asset-pack/PNG/fire_animation.png" id="1_hv5h5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4uq7g"]
+atlas = ExtResource("1_hv5h5")
+region = Rect2(132, 0, 44, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fr6wy"]
+atlas = ExtResource("1_hv5h5")
+region = Rect2(132, 48, 44, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l7rlu"]
+atlas = ExtResource("1_hv5h5")
+region = Rect2(132, 96, 44, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uf5y2"]
+atlas = ExtResource("1_hv5h5")
+region = Rect2(132, 144, 44, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eyuee"]
+atlas = ExtResource("1_hv5h5")
+region = Rect2(132, 192, 44, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qdtbh"]
+atlas = ExtResource("1_hv5h5")
+region = Rect2(132, 240, 44, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8k4j1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4uq7g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fr6wy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l7rlu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uf5y2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eyuee")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qdtbh")
+}],
+"loop": true,
+"name": &"fire animation",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=1125372262]
+position = Vector2(106, 67)
+scale = Vector2(1.9318181, 1.9583334)
+sprite_frames = SubResource("SpriteFrames_8k4j1")
+animation = &"fire animation"
+autoplay = "fire animation"
+frame_progress = 0.7952464

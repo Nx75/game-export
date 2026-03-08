@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dkjrgxl5s3roa"
+path="res://.godot/imported/sound_unclick.ogg-894f055afef0b859edf708d685065d85.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/Floor is Lava - Demo/sound_unclick.ogg"
+dest_files=["res://.godot/imported/sound_unclick.ogg-894f055afef0b859edf708d685065d85.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
